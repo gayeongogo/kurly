@@ -102,7 +102,6 @@ i{font-style: normal;}
             p{
                 font-size: 13px;
                 color: #666;
-                margin-top: 5px;
                 &.red{
                     color: #f03f40;
                 }
@@ -139,7 +138,25 @@ i{font-style: normal;}
                 top: -7px;
             }
         }
-        .radio-box{width: 53%; display: flex;}
+        .radio-box{
+            width: 53%;
+            display: flex;
+        }
+        .add-input-box{
+            p{
+                font-size: 12px;
+                margin-top: 5px;
+            }
+        }
+        #addInputBox{
+            margin-top: 10px;
+            padding: 0px 11px 1px 15px;
+            box-sizing: border-box;
+            width: 70%;
+            height: 46px;
+            border: 1px solid #dddddd;
+            border-radius: 4px;
+        }
         .date-box{
             display: flex;
             width: 70%;
