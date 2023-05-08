@@ -777,7 +777,7 @@ class KurlyComponent extends Component {
                     }
                 }
                 
-                console.log( cnt );
+                //console.log( cnt );
     
                 if(cnt < 3){
                   this.setState({
@@ -860,6 +860,11 @@ class KurlyComponent extends Component {
                         isClassBirthDay:'', //'',true, false
                         birthDayGuideText:'', //가이드텍스트 여러가지 내용
                     });
+
+                    this.setState({
+                        isModalOpen : true,
+                        modalText : '회원가입이 완료되었습니다.'
+                    })
                 }
             }
         }
@@ -869,7 +874,7 @@ class KurlyComponent extends Component {
         return (
             <div id="kurly">
                 <div className="title">
-                    <h1><img src="../../img/logo.svg" alt="" /></h1> 
+                    <h1 className='logo'>logo</h1> 
                 </div>
                 <div className="content">
                     <h2>회원가입</h2>
@@ -1009,13 +1014,12 @@ class KurlyComponent extends Component {
                                         <button 
                                             onClick={this.onClickAddress}
                                             type="button" 
-                                            className='inputText addr' id="inputAddr"> 
-                                         <img src="../../img/ico_search.svg" alt="검색" />    
-                                         <span>
-                                            {
-                                                this.state.isAddressInputShow===true? `주소재검색`:`주소검색`
-                                            }
-                                         </span>
+                                            className='inputText addr' id="inputAddr">
+                                            <span className='addrSearch'>
+                                                {
+                                                    this.state.isAddressInputShow===true? `주소재검색`:`주소검색`
+                                                }
+                                            </span>
                                          </button>
                                         <div id="postcode">
                                             {

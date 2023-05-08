@@ -9,8 +9,16 @@ i{font-style: normal;}
     margin: 0 auto;
 }
 .title{
+    margin: 20px 0;
     text-align: center;
-    margin-top: 20px;
+    .logo{
+        width: 82px;
+        height: 42px;
+        background: url(../../public/img/logo.svg) no-repeat center center;
+        background-size: 82px 42px;
+        text-indent: -9999px;
+        display: inline-block;
+    }
 }
 .content{
     h2{
@@ -65,6 +73,19 @@ i{font-style: normal;}
                 &:focus{
                     outline: 1px solid #666;
                     outline-offset: -1px;
+                }
+                .addrSearch{
+                    color: #5f0080;
+                    font-weight: bold;
+                    &::before{
+                        content: "";
+                        width: 20px;
+                        height: 20px;
+                        background: url(../../public/img/ico_search.svg) no-repeat center center;
+                        background-size: 20px 20px;
+                        display: inline-block;
+                        vertical-align: middle;
+                    }
                 }
             }
             .conter-timer-box{
