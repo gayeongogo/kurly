@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/kurly/static/css/main.73f19f13.css",
-    "main.js": "/kurly/static/js/main.3a100544.js",
+    "main.css": "/kurly/static/css/main.56f7559f.css",
+    "main.js": "/kurly/static/js/main.144e09a9.js",
+    "static/media/logo.svg": "/kurly/static/media/logo.b38a6b4c29c162ed5f03.svg",
+    "static/media/ico_search.svg": "/kurly/static/media/ico_search.6a7f4ec1b814767bec72.svg",
     "static/media/checkbox_checked.svg": "/kurly/static/media/checkbox_checked.a3f2a456d9210f2d4170.svg",
     "static/media/checkbox.svg": "/kurly/static/media/checkbox.6dfd9b2c5c4e8a3bc2c8.svg",
     "index.html": "/kurly/index.html",
     "static/media/ico_sub_dot.svg": "/kurly/static/media/ico_sub_dot.f1c4a62d9156b1631e23.svg",
-    "main.73f19f13.css.map": "/kurly/static/css/main.73f19f13.css.map",
-    "main.3a100544.js.map": "/kurly/static/js/main.3a100544.js.map"
+    "main.56f7559f.css.map": "/kurly/static/css/main.56f7559f.css.map",
+    "main.144e09a9.js.map": "/kurly/static/js/main.144e09a9.js.map"
   },
   "entrypoints": [
-    "static/css/main.73f19f13.css",
-    "static/js/main.3a100544.js"
+    "static/css/main.56f7559f.css",
+    "static/js/main.144e09a9.js"
   ]
 }
